@@ -1,0 +1,2595 @@
+@charset "UTF-8";
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 201, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Neue-Haas-Unica-Pro';
+  src: url("fonts/NeueHaasUnicaPro-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Neue-Haas-Unica-W1G-Thin';
+  src: url("fonts/NeueHaasUnicaW1G-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'wapa';
+  src: url("fonts/wapa.eot?bafgfh");
+  src: url("fonts/wapa.eot?#iefixbafgfh") format("embedded-opentype"), url("fonts/wapa.ttf?bafgfh") format("truetype"), url("fonts/wapa.woff?bafgfh") format("woff"), url("fonts/wapa.svg?bafgfh#wapa") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 25, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'wapa';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 39, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.icon-wapa-logo:before {
+  content: "\e600"; }
+
+/* line 42, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.icon-wash:before {
+  content: "\e601"; }
+
+/* line 45, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.icon-style:before {
+  content: "\e602"; }
+
+/* line 48, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.icon-manicure:before {
+  content: "\e603"; }
+
+/* line 51, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.icon-color:before {
+  content: "\e604"; }
+
+/* line 54, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.icon-blowdry:before {
+  content: "\e605"; }
+
+/* line 57, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.icon-haircut:before {
+  content: "\e606"; }
+
+/* line 61, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+.social-icon {
+  background: url("../images/social-network.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 14px;
+  width: 14px; }
+  /* line 68, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+  .social-icon.facebook {
+    background-position: 0px 0px; }
+  /* line 71, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+  .social-icon.twitter {
+    background-position: -100px 0px; }
+  /* line 74, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+  .social-icon.google {
+    background-position: -190px 0px; }
+
+/*------------------------------------*\
+    $CSSWIZARDRY-GRIDS
+\*------------------------------------*/
+/**
+ * CONTENTS
+ * INTRODUCTION.........How the grid system works.
+ * VARIABLES............Your settings.
+ * MIXINS...............Library mixins.
+ * GRID SETUP...........Build the grid structure.
+ * WIDTHS...............Build our responsive widths around our breakpoints.
+ * PUSH.................Push classes.
+ * PULL.................Pull classes.
+ */
+/*------------------------------------*\
+    $INTRODUCTION
+\*------------------------------------*/
+/**
+ * csswizardry grids provides you with widths to suit a number of breakpoints
+ * designed around devices of a size you specify. Out of the box, csswizardry
+ * grids caters to the following types of device:
+ *
+ * palm     --  palm-based devices, like phones and small tablets
+ * lap      --  lap-based devices, like iPads or laptops
+ * portable --  all of the above
+ * desk     --  stationary devices, like desktop computers
+ * regular  --  any/all types of device
+ *
+ * These namespaces are then used in the library to give you the ability to
+ * manipulate your layouts based around them, for example:
+ *
+   <div class="grid__item  one-whole  lap--one-half  desk--one-third">
+ *
+ * This would give you a grid item which is 100% width unless it is on a lap
+ * device, at which point it become 50% wide, or it is on a desktop device, at
+ * which point it becomes 33.333% width.
+ *
+ * csswizardry grids also has push and pull classes which allow you to nudge
+ * grid items left and right by a defined amount. These follow the same naming
+ * convention as above, but are prepended by either `push--` or `pull--`, for
+ * example:
+ *
+   `class="grid__item  one-half  push--one-half"`
+ *
+ * This would give you a grid item which is 50% width and pushed over to the
+ * right by 50%.
+ *
+ * All classes in csswizardry grids follow this patten, so you should fairly
+ * quickly be able to piece together any combinations you can imagine, for
+ * example:
+ *
+   `class="grid__item  one-whole  lap--one-half  desk--one-third  push--desk--one-third"`
+ *
+   `class="grid__item  one-quarter  palm--one-half  push--palm--one-half"`
+ *
+   `class="grid__item  palm--one-third  desk--five-twelfths"`
+ */
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+/**
+ * If you are building a non-responsive site but would still like to use
+ * csswizardry-grids, set this to ‘false’:
+ */
+/**
+ * Is this build mobile first? Setting to ‘true’ means that all grids will be
+ * 100% width if you do not apply a more specific class to them.
+ */
+/**
+ * Set the spacing between your grid items.
+ */
+/**
+ * Would you like Sass’ silent classes, or regular CSS classes?
+ */
+/**
+ * Would you like push and pull classes enabled?
+ */
+/**
+ * Using `inline-block` means that the grid items need their whitespace removing
+ * in order for them to work correctly. Set the following to true if you are
+ * going to achieve this by manually removing/commenting out any whitespace in
+ * your HTML yourself.
+ *
+ * Setting this to false invokes a hack which cannot always be guaranteed,
+ * please see the following for more detail:
+ *
+ * github.com/csswizardry/csswizardry-grids/commit/744d4b23c9d2b77d605b5991e54a397df72e0688
+ * github.com/csswizardry/inuit.css/issues/170#issuecomment-14859371
+ */
+/**
+ * Define your breakpoints. The first value is the prefix that shall be used for
+ * your classes (e.g. `.palm--one-half`), the second value is the media query
+ * that the breakpoint fires at.
+ */
+/**
+ * Define which namespaced breakpoints you would like to generate for each of
+ * widths, push and pull. This is handy if you only need pull on, say, desk, or
+ * you only need a new width breakpoint at mobile sizes. It allows you to only
+ * compile as much CSS as you need. All are turned on by default, but you can
+ * add and remove breakpoints at will.
+ *
+ * Push and pull shall only be used if `$push` and/or `$pull` and `$responsive`
+ * have been set to ‘true’.
+ */
+/**
+ * You do not need to edit anything from this line onward; csswizardry-grids is
+ * good to go. Happy griddin’!
+ */
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+/**
+ * These mixins are for the library to use only, you should not need to modify
+ * them at all.
+ *
+ * Enclose a block of code with a media query as named in `$breakpoints`.
+ */
+/**
+ * Drop relative positioning into silent classes which can’t take advantage of
+ * the `[class*="push--"]` and `[class*="pull--"]` selectors.
+ */
+/*------------------------------------*\
+    $GRID SETUP
+\*------------------------------------*/
+/**
+ * 1. Allow the grid system to be used on lists.
+ * 2. Remove any margins and paddings that might affect the grid system.
+ * 3. Apply a negative `margin-left` to negate the columns’ gutters.
+ */
+/* line 210, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid {
+  list-style: none;
+  /* [1] */
+  margin: 0;
+  /* [2] */
+  padding: 0;
+  /* [2] */
+  margin-left: -20px;
+  /* [3] */ }
+
+/**
+ * 1. Cause columns to stack side-by-side.
+ * 2. Space columns apart.
+ * 3. Align columns to the tops of each other.
+ * 4. Full-width unless told to behave otherwise.
+ * 5. Required to combine fluid widths and fixed gutters.
+ */
+/* line 236, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid__item {
+  display: inline-block;
+  /* [1] */
+  padding-left: 20px;
+  /* [2] */
+  vertical-align: top;
+  /* [3] */
+  width: 100%;
+  /* [4] */
+  -webkit-box-sizing: border-box;
+  /* [5] */
+  -moz-box-sizing: border-box;
+  /* [5] */
+  box-sizing: border-box;
+  /* [5] */ }
+
+/**
+ * Reversed grids allow you to structure your source in the opposite order to
+ * how your rendered layout will appear. Extends `.grid`.
+ */
+/* line 260, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--rev {
+  direction: rtl;
+  text-align: left; }
+  /* line 264, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .grid--rev > .grid__item {
+    direction: ltr;
+    text-align: left; }
+
+/**
+ * Gutterless grids have all the properties of regular grids, minus any spacing.
+ * Extends `.grid`.
+ */
+/* line 275, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--full {
+  margin-left: 0; }
+  /* line 278, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .grid--full > .grid__item {
+    padding-left: 0; }
+
+/**
+ * Align the entire grid to the right. Extends `.grid`.
+ */
+/* line 287, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--right {
+  text-align: right; }
+  /* line 290, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .grid--right > .grid__item {
+    text-align: left; }
+
+/**
+ * Centered grids align grid items centrally without needing to use push or pull
+ * classes. Extends `.grid`.
+ */
+/* line 300, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--center {
+  text-align: center; }
+  /* line 302, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .grid--center > .grid__item {
+    text-align: left; }
+
+/**
+ * Align grid cells vertically (`.grid--middle` or `.grid--bottom`). Extends
+ * `.grid`.
+ */
+/* line 314, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--middle > .grid__item {
+  vertical-align: middle; }
+
+/* line 321, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--bottom > .grid__item {
+  vertical-align: bottom; }
+
+/* line 326, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--table {
+  display: table; }
+  /* line 328, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .grid--table > .grid__item {
+    display: table-cell;
+    vertical-align: middle; }
+
+/**
+ * Create grids with narrower gutters. Extends `.grid`.
+ */
+/* line 338, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--narrow {
+  margin-left: -10px; }
+  /* line 341, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .grid--narrow > .grid__item {
+    padding-left: 10px; }
+
+/**
+ * Create grids with wider gutters. Extends `.grid`.
+ */
+/* line 350, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.grid--wide {
+  margin-left: -40px; }
+  /* line 353, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .grid--wide > .grid__item {
+    padding-left: 40px; }
+
+/*------------------------------------*\
+    $WIDTHS
+\*------------------------------------*/
+/**
+ * Create our width classes, prefixed by the specified namespace.
+ */
+/**
+ * Our regular, non-responsive width classes.
+ */
+/**
+ * Whole
+ */
+/* line 374, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-whole {
+  width: 100%; }
+
+/**
+ * Halves
+ */
+/* line 380, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
+  width: 50%; }
+
+/**
+ * Thirds
+ */
+/* line 386, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-third, .two-sixths, .four-twelfths {
+  width: 33.333%; }
+
+/* line 387, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.two-thirds, .four-sixths, .eight-twelfths {
+  width: 66.666%; }
+
+/**
+ * Quarters
+ */
+/* line 393, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-quarter, .two-eighths, .three-twelfths {
+  width: 25%; }
+
+/* line 395, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.three-quarters, .six-eighths, .nine-twelfths {
+  width: 75%; }
+
+/**
+ * Fifths
+ */
+/* line 401, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-fifth, .two-tenths {
+  width: 20%; }
+
+/* line 402, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.two-fifths, .four-tenths {
+  width: 40%; }
+
+/* line 403, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.three-fifths, .six-tenths {
+  width: 60%; }
+
+/* line 404, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.four-fifths, .eight-tenths {
+  width: 80%; }
+
+/**
+ * Sixths
+ */
+/* line 410, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-sixth, .two-twelfths {
+  width: 16.666%; }
+
+/* line 414, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.five-sixths, .ten-twelfths {
+  width: 83.333%; }
+
+/**
+ * Eighths
+ */
+/* line 420, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-eighth {
+  width: 12.5%; }
+
+/* line 422, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.three-eighths {
+  width: 37.5%; }
+
+/* line 424, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.five-eighths {
+  width: 62.5%; }
+
+/* line 426, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.seven-eighths {
+  width: 87.5%; }
+
+/**
+ * Tenths
+ */
+/* line 432, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-tenth {
+  width: 10%; }
+
+/* line 434, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.three-tenths {
+  width: 30%; }
+
+/* line 438, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.seven-tenths {
+  width: 70%; }
+
+/* line 440, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.nine-tenths {
+  width: 90%; }
+
+/**
+ * Twelfths
+ */
+/* line 446, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.one-twelfth {
+  width: 8.333%; }
+
+/* line 450, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.five-twelfths {
+  width: 41.666%; }
+
+/* line 452, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.seven-twelfths {
+  width: 58.333%; }
+
+/* line 456, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.eleven-twelfths {
+  width: 91.666%; }
+
+/**
+ * Our responsive classes, if we have enabled them.
+ */
+@media only screen and (min-width: 320px) {
+  /**
+   * Whole
+   */
+  /* line 374, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-whole {
+    width: 100%; }
+
+  /**
+   * Halves
+   */
+  /* line 380, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-half, .phone--two-quarters, .phone--three-sixths, .phone--four-eighths, .phone--five-tenths, .phone--six-twelfths {
+    width: 50%; }
+
+  /**
+   * Thirds
+   */
+  /* line 386, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-third, .phone--two-sixths, .phone--four-twelfths {
+    width: 33.333%; }
+
+  /* line 387, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--two-thirds, .phone--four-sixths, .phone--eight-twelfths {
+    width: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  /* line 393, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-quarter, .phone--two-eighths, .phone--three-twelfths {
+    width: 25%; }
+
+  /* line 395, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--three-quarters, .phone--six-eighths, .phone--nine-twelfths {
+    width: 75%; }
+
+  /**
+   * Fifths
+   */
+  /* line 401, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-fifth, .phone--two-tenths {
+    width: 20%; }
+
+  /* line 402, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--two-fifths, .phone--four-tenths {
+    width: 40%; }
+
+  /* line 403, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--three-fifths, .phone--six-tenths {
+    width: 60%; }
+
+  /* line 404, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--four-fifths, .phone--eight-tenths {
+    width: 80%; }
+
+  /**
+   * Sixths
+   */
+  /* line 410, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-sixth, .phone--two-twelfths {
+    width: 16.666%; }
+
+  /* line 414, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--five-sixths, .phone--ten-twelfths {
+    width: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  /* line 420, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-eighth {
+    width: 12.5%; }
+
+  /* line 422, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--three-eighths {
+    width: 37.5%; }
+
+  /* line 424, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--five-eighths {
+    width: 62.5%; }
+
+  /* line 426, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--seven-eighths {
+    width: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  /* line 432, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-tenth {
+    width: 10%; }
+
+  /* line 434, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--three-tenths {
+    width: 30%; }
+
+  /* line 438, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--seven-tenths {
+    width: 70%; }
+
+  /* line 440, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--nine-tenths {
+    width: 90%; }
+
+  /**
+   * Twelfths
+   */
+  /* line 446, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--one-twelfth {
+    width: 8.333%; }
+
+  /* line 450, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--five-twelfths {
+    width: 41.666%; }
+
+  /* line 452, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--seven-twelfths {
+    width: 58.333%; }
+
+  /* line 456, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--eleven-twelfths {
+    width: 91.666%; } }
+@media only screen and (min-width: 500px) {
+  /**
+   * Whole
+   */
+  /* line 374, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-whole {
+    width: 100%; }
+
+  /**
+   * Halves
+   */
+  /* line 380, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-half, .palm--two-quarters, .palm--three-sixths, .palm--four-eighths, .palm--five-tenths, .palm--six-twelfths {
+    width: 50%; }
+
+  /**
+   * Thirds
+   */
+  /* line 386, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-third, .palm--two-sixths, .palm--four-twelfths {
+    width: 33.333%; }
+
+  /* line 387, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--two-thirds, .palm--four-sixths, .palm--eight-twelfths {
+    width: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  /* line 393, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-quarter, .palm--two-eighths, .palm--three-twelfths {
+    width: 25%; }
+
+  /* line 395, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--three-quarters, .palm--six-eighths, .palm--nine-twelfths {
+    width: 75%; }
+
+  /**
+   * Fifths
+   */
+  /* line 401, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-fifth, .palm--two-tenths {
+    width: 20%; }
+
+  /* line 402, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--two-fifths, .palm--four-tenths {
+    width: 40%; }
+
+  /* line 403, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--three-fifths, .palm--six-tenths {
+    width: 60%; }
+
+  /* line 404, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--four-fifths, .palm--eight-tenths {
+    width: 80%; }
+
+  /**
+   * Sixths
+   */
+  /* line 410, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-sixth, .palm--two-twelfths {
+    width: 16.666%; }
+
+  /* line 414, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--five-sixths, .palm--ten-twelfths {
+    width: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  /* line 420, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-eighth {
+    width: 12.5%; }
+
+  /* line 422, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--three-eighths {
+    width: 37.5%; }
+
+  /* line 424, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--five-eighths {
+    width: 62.5%; }
+
+  /* line 426, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--seven-eighths {
+    width: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  /* line 432, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-tenth {
+    width: 10%; }
+
+  /* line 434, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--three-tenths {
+    width: 30%; }
+
+  /* line 438, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--seven-tenths {
+    width: 70%; }
+
+  /* line 440, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--nine-tenths {
+    width: 90%; }
+
+  /**
+   * Twelfths
+   */
+  /* line 446, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--one-twelfth {
+    width: 8.333%; }
+
+  /* line 450, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--five-twelfths {
+    width: 41.666%; }
+
+  /* line 452, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--seven-twelfths {
+    width: 58.333%; }
+
+  /* line 456, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--eleven-twelfths {
+    width: 91.666%; } }
+@media only screen and (min-width: 800px) {
+  /**
+   * Whole
+   */
+  /* line 374, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-whole {
+    width: 100%; }
+
+  /**
+   * Halves
+   */
+  /* line 380, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-half, .lap--two-quarters, .lap--three-sixths, .lap--four-eighths, .lap--five-tenths, .lap--six-twelfths {
+    width: 50%; }
+
+  /**
+   * Thirds
+   */
+  /* line 386, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-third, .lap--two-sixths, .lap--four-twelfths {
+    width: 33.333%; }
+
+  /* line 387, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--two-thirds, .lap--four-sixths, .lap--eight-twelfths {
+    width: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  /* line 393, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-quarter, .lap--two-eighths, .lap--three-twelfths {
+    width: 25%; }
+
+  /* line 395, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--three-quarters, .lap--six-eighths, .lap--nine-twelfths {
+    width: 75%; }
+
+  /**
+   * Fifths
+   */
+  /* line 401, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-fifth, .lap--two-tenths {
+    width: 20%; }
+
+  /* line 402, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--two-fifths, .lap--four-tenths {
+    width: 40%; }
+
+  /* line 403, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--three-fifths, .lap--six-tenths {
+    width: 60%; }
+
+  /* line 404, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--four-fifths, .lap--eight-tenths {
+    width: 80%; }
+
+  /**
+   * Sixths
+   */
+  /* line 410, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-sixth, .lap--two-twelfths {
+    width: 16.666%; }
+
+  /* line 414, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--five-sixths, .lap--ten-twelfths {
+    width: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  /* line 420, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-eighth {
+    width: 12.5%; }
+
+  /* line 422, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--three-eighths {
+    width: 37.5%; }
+
+  /* line 424, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--five-eighths {
+    width: 62.5%; }
+
+  /* line 426, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--seven-eighths {
+    width: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  /* line 432, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-tenth {
+    width: 10%; }
+
+  /* line 434, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--three-tenths {
+    width: 30%; }
+
+  /* line 438, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--seven-tenths {
+    width: 70%; }
+
+  /* line 440, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--nine-tenths {
+    width: 90%; }
+
+  /**
+   * Twelfths
+   */
+  /* line 446, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--one-twelfth {
+    width: 8.333%; }
+
+  /* line 450, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--five-twelfths {
+    width: 41.666%; }
+
+  /* line 452, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--seven-twelfths {
+    width: 58.333%; }
+
+  /* line 456, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--eleven-twelfths {
+    width: 91.666%; } }
+@media only screen and (min-width: 1024px) {
+  /**
+   * Whole
+   */
+  /* line 374, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-whole {
+    width: 100%; }
+
+  /**
+   * Halves
+   */
+  /* line 380, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-half, .desk--two-quarters, .desk--three-sixths, .desk--four-eighths, .desk--five-tenths, .desk--six-twelfths {
+    width: 50%; }
+
+  /**
+   * Thirds
+   */
+  /* line 386, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-third, .desk--two-sixths, .desk--four-twelfths {
+    width: 33.333%; }
+
+  /* line 387, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--two-thirds, .desk--four-sixths, .desk--eight-twelfths {
+    width: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  /* line 393, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-quarter, .desk--two-eighths, .desk--three-twelfths {
+    width: 25%; }
+
+  /* line 395, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--three-quarters, .desk--six-eighths, .desk--nine-twelfths {
+    width: 75%; }
+
+  /**
+   * Fifths
+   */
+  /* line 401, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-fifth, .desk--two-tenths {
+    width: 20%; }
+
+  /* line 402, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--two-fifths, .desk--four-tenths {
+    width: 40%; }
+
+  /* line 403, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--three-fifths, .desk--six-tenths {
+    width: 60%; }
+
+  /* line 404, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--four-fifths, .desk--eight-tenths {
+    width: 80%; }
+
+  /**
+   * Sixths
+   */
+  /* line 410, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-sixth, .desk--two-twelfths {
+    width: 16.666%; }
+
+  /* line 414, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--five-sixths, .desk--ten-twelfths {
+    width: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  /* line 420, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-eighth {
+    width: 12.5%; }
+
+  /* line 422, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--three-eighths {
+    width: 37.5%; }
+
+  /* line 424, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--five-eighths {
+    width: 62.5%; }
+
+  /* line 426, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--seven-eighths {
+    width: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  /* line 432, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-tenth {
+    width: 10%; }
+
+  /* line 434, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--three-tenths {
+    width: 30%; }
+
+  /* line 438, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--seven-tenths {
+    width: 70%; }
+
+  /* line 440, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--nine-tenths {
+    width: 90%; }
+
+  /**
+   * Twelfths
+   */
+  /* line 446, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--one-twelfth {
+    width: 8.333%; }
+
+  /* line 450, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--five-twelfths {
+    width: 41.666%; }
+
+  /* line 452, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--seven-twelfths {
+    width: 58.333%; }
+
+  /* line 456, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--eleven-twelfths {
+    width: 91.666%; } }
+@media only screen and (min-width: 1280px) {
+  /**
+   * Whole
+   */
+  /* line 374, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-whole {
+    width: 100%; }
+
+  /**
+   * Halves
+   */
+  /* line 380, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-half, .desk-wide--two-quarters, .desk-wide--three-sixths, .desk-wide--four-eighths, .desk-wide--five-tenths, .desk-wide--six-twelfths {
+    width: 50%; }
+
+  /**
+   * Thirds
+   */
+  /* line 386, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-third, .desk-wide--two-sixths, .desk-wide--four-twelfths {
+    width: 33.333%; }
+
+  /* line 387, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--two-thirds, .desk-wide--four-sixths, .desk-wide--eight-twelfths {
+    width: 66.666%; }
+
+  /**
+   * Quarters
+   */
+  /* line 393, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-quarter, .desk-wide--two-eighths, .desk-wide--three-twelfths {
+    width: 25%; }
+
+  /* line 395, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--three-quarters, .desk-wide--six-eighths, .desk-wide--nine-twelfths {
+    width: 75%; }
+
+  /**
+   * Fifths
+   */
+  /* line 401, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-fifth, .desk-wide--two-tenths {
+    width: 20%; }
+
+  /* line 402, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--two-fifths, .desk-wide--four-tenths {
+    width: 40%; }
+
+  /* line 403, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--three-fifths, .desk-wide--six-tenths {
+    width: 60%; }
+
+  /* line 404, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--four-fifths, .desk-wide--eight-tenths {
+    width: 80%; }
+
+  /**
+   * Sixths
+   */
+  /* line 410, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-sixth, .desk-wide--two-twelfths {
+    width: 16.666%; }
+
+  /* line 414, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--five-sixths, .desk-wide--ten-twelfths {
+    width: 83.333%; }
+
+  /**
+   * Eighths
+   */
+  /* line 420, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-eighth {
+    width: 12.5%; }
+
+  /* line 422, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--three-eighths {
+    width: 37.5%; }
+
+  /* line 424, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--five-eighths {
+    width: 62.5%; }
+
+  /* line 426, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--seven-eighths {
+    width: 87.5%; }
+
+  /**
+   * Tenths
+   */
+  /* line 432, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-tenth {
+    width: 10%; }
+
+  /* line 434, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--three-tenths {
+    width: 30%; }
+
+  /* line 438, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--seven-tenths {
+    width: 70%; }
+
+  /* line 440, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--nine-tenths {
+    width: 90%; }
+
+  /**
+   * Twelfths
+   */
+  /* line 446, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--one-twelfth {
+    width: 8.333%; }
+
+  /* line 450, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--five-twelfths {
+    width: 41.666%; }
+
+  /* line 452, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--seven-twelfths {
+    width: 58.333%; }
+
+  /* line 456, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--eleven-twelfths {
+    width: 91.666%; } }
+/* line 479, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.phone--visible, .phone--visible-inline {
+  display: none; }
+
+@media only screen and (min-width: 320px) {
+  /* line 481, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--visible {
+    display: block; }
+
+  /* line 482, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .phone--visible-inline {
+    display: inline-block; } }
+/* line 479, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.palm--visible, .palm--visible-inline {
+  display: none; }
+
+@media only screen and (min-width: 500px) {
+  /* line 481, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--visible {
+    display: block; }
+
+  /* line 482, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .palm--visible-inline {
+    display: inline-block; } }
+/* line 479, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.lap--visible, .lap--visible-inline {
+  display: none; }
+
+@media only screen and (min-width: 800px) {
+  /* line 481, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--visible {
+    display: block; }
+
+  /* line 482, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .lap--visible-inline {
+    display: inline-block; } }
+/* line 479, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.desk--visible, .desk--visible-inline {
+  display: none; }
+
+@media only screen and (min-width: 1024px) {
+  /* line 481, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--visible {
+    display: block; }
+
+  /* line 482, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk--visible-inline {
+    display: inline-block; } }
+/* line 479, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+.desk-wide--visible, .desk-wide--visible-inline {
+  display: none; }
+
+@media only screen and (min-width: 1280px) {
+  /* line 481, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--visible {
+    display: block; }
+
+  /* line 482, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_grids.scss */
+  .desk-wide--visible-inline {
+    display: inline-block; } }
+/*------------------------------------*\
+    $PUSH
+\*------------------------------------*/
+/**
+ * Push classes, to move grid items over to the right by certain amounts.
+ */
+/*------------------------------------*\
+    $PULL
+\*------------------------------------*/
+/**
+ * Pull classes, to move grid items back to the left by certain amounts.
+ */
+/**
+ * Media query mixin.
+ *
+ * It’s not great practice to define solid breakpoints up-front, preferring to
+ * modify your design when it needs it, rather than assuming you’ll want a
+ * change at ‘mobile’. However, as inuit.css is required to take a hands off
+ * approach to design decisions, this is the closest we can get to baked-in
+ * responsiveness. It’s flexible enough to allow you to set your own breakpoints
+ * but solid enough to be frameworkified.
+ *
+ * We define some broad breakpoints in our vars file that are picked up here
+ * for use in a simple media query mixin. Our options are:
+ *
+ * palm
+ * lap
+ * lap-and-up
+ * portable
+ * desk
+ * desk-wide
+ *
+ * Not using a media query will, naturally, serve styles to all devices.
+ *
+ * `@include media-query(palm){ [styles here] }`
+ *
+ * We work out your end points for you:
+ */
+/**
+ * Add/remove floats
+ */
+/* line 7, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.float--right {
+  float: right !important; }
+
+/* line 8, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.float--left {
+  float: left !important; }
+
+/* line 9, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.float--none {
+  float: none !important; }
+
+/**
+ * Center blockk elements
+ */
+/* line 14, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.block--center {
+  display: block;
+  margin: 0 auto; }
+
+/**
+ * Text alignment
+ */
+/* line 22, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.text--left {
+  text-align: left  !important; }
+
+/* line 23, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.text--center {
+  text-align: center !important; }
+
+/* line 24, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.text--right {
+  text-align: right !important; }
+
+/**
+ * Font weights
+ */
+/* line 29, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.weight--light {
+  font-weight: 300 !important; }
+
+/* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.weight--normal {
+  font-weight: 400 !important; }
+
+/* line 31, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.weight--semibold {
+  font-weight: 600 !important; }
+
+/* line 32, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.weight--bold {
+  font-weight: 700 !important; }
+
+/* line 33, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.weight--extrabold {
+  font-weight: 800 !important; }
+
+/**
+ * Font Size
+ */
+/* line 40, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.font-big {
+  font-size: 1.2em;
+  display: inline; }
+
+/* line 41, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.font-mid {
+  font-size: 0.9em;
+  display: inline; }
+
+/* line 42, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.font-min {
+  font-size: 0.8em;
+  display: inline; }
+
+/**
+ * Add/remove margins
+ */
+/* line 48, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push {
+  margin: 20px !important; }
+
+/* line 49, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push--top {
+  margin-top: 20px !important; }
+
+/* line 50, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push--right {
+  margin-right: 20px !important; }
+
+/* line 51, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push--bottom {
+  margin-bottom: 20px !important; }
+
+/* line 52, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push--left {
+  margin-left: 20px !important; }
+
+/* line 53, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push--ends {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important; }
+
+/* line 54, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push--sides {
+  margin-right: 20px !important;
+  margin-left: 20px !important; }
+
+/* line 56, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quarter {
+  margin: 5px !important; }
+
+/* line 57, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quarter--top {
+  margin-top: 5px !important; }
+
+/* line 58, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quarter--right {
+  margin-right: 5px !important; }
+
+/* line 59, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quarter--bottom {
+  margin-bottom: 5px !important; }
+
+/* line 60, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quarter--left {
+  margin-left: 5px !important; }
+
+/* line 61, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quarter--ends {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important; }
+
+/* line 62, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quarter--sides {
+  margin-right: 5px !important;
+  margin-left: 5px !important; }
+
+/* line 64, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-half {
+  margin: 10px !important; }
+
+/* line 65, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-half--top {
+  margin-top: 10px !important; }
+
+/* line 66, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-half--right {
+  margin-right: 10px !important; }
+
+/* line 67, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-half--bottom {
+  margin-bottom: 10px !important; }
+
+/* line 68, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-half--left {
+  margin-left: 10px !important; }
+
+/* line 69, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-half--ends {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important; }
+
+/* line 70, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-half--sides {
+  margin-right: 10px !important;
+  margin-left: 10px !important; }
+
+/* line 72, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-mini {
+  margin: 5px !important; }
+
+/* line 73, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-mini--top {
+  margin-top: 5px !important; }
+
+/* line 74, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-mini--right {
+  margin-right: 5px !important; }
+
+/* line 75, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-mini--bottom {
+  margin-bottom: 5px !important; }
+
+/* line 76, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-mini--left {
+  margin-left: 5px !important; }
+
+/* line 77, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-mini--ends {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important; }
+
+/* line 78, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-mini--sides {
+  margin-right: 5px !important;
+  margin-left: 5px !important; }
+
+/* line 80, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-double {
+  margin: 40px !important; }
+
+/* line 81, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-double--top {
+  margin-top: 40px !important; }
+
+/* line 82, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-double--right {
+  margin-right: 40px !important; }
+
+/* line 83, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-double--bottom {
+  margin-bottom: 40px !important; }
+
+/* line 84, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-double--left {
+  margin-left: 40px !important; }
+
+/* line 85, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-double--ends {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important; }
+
+/* line 86, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-double--sides {
+  margin-right: 40px !important;
+  margin-left: 40px !important; }
+
+/* line 88, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quintuple {
+  margin: 100px !important; }
+
+/* line 89, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quintuple--top {
+  margin-top: 100px !important; }
+
+/* line 90, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quintuple--right {
+  margin-right: 100px !important; }
+
+/* line 91, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quintuple--bottom {
+  margin-bottom: 100px !important; }
+
+/* line 92, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quintuple--left {
+  margin-left: 100px !important; }
+
+/* line 93, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quintuple--ends {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important; }
+
+/* line 94, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.push-quintuple--sides {
+  margin-right: 100px !important;
+  margin-left: 100px !important; }
+
+/* line 96, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.flush {
+  margin: 0 !important; }
+
+/* line 97, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.flush--top {
+  margin-top: 0 !important; }
+
+/* line 98, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.flush--right {
+  margin-right: 0 !important; }
+
+/* line 99, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.flush--bottom {
+  margin-bottom: 0 !important; }
+
+/* line 100, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.flush--left {
+  margin-left: 0 !important; }
+
+/* line 101, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.flush--ends {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
+
+/* line 102, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.flush--sides {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
+
+/**
+ * Add/remove paddings
+ */
+/* line 108, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft {
+  padding: 20px !important; }
+
+/* line 109, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft--top {
+  padding-top: 20px !important; }
+
+/* line 110, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft--right {
+  padding-right: 20px !important; }
+
+/* line 111, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft--bottom {
+  padding-bottom: 20px !important; }
+
+/* line 112, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft--left {
+  padding-left: 20px !important; }
+
+/* line 113, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft--ends {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important; }
+
+/* line 114, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft--sides {
+  padding-right: 20px !important;
+  padding-left: 20px !important; }
+
+/* line 116, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quarter {
+  padding: 5px !important; }
+
+/* line 117, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quarter--top {
+  padding-top: 5px !important; }
+
+/* line 118, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quarter--right {
+  padding-right: 5px !important; }
+
+/* line 119, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quarter--bottom {
+  padding-bottom: 5px !important; }
+
+/* line 120, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quarter--left {
+  padding-left: 5px !important; }
+
+/* line 121, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quarter--ends {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important; }
+
+/* line 122, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quarter--sides {
+  padding-right: 5px !important;
+  padding-left: 5px !important; }
+
+/* line 124, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-half {
+  padding: 10px !important; }
+
+/* line 125, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-half--top {
+  padding-top: 10px !important; }
+
+/* line 126, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-half--right {
+  padding-right: 10px !important; }
+
+/* line 127, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-half--bottom {
+  padding-bottom: 10px !important; }
+
+/* line 128, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-half--left {
+  padding-left: 10px !important; }
+
+/* line 129, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-half--ends {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important; }
+
+/* line 130, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-half--sides {
+  padding-right: 10px !important;
+  padding-left: 10px !important; }
+
+/* line 132, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-double {
+  padding: 40px !important; }
+
+/* line 133, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-double--top {
+  padding-top: 40px !important; }
+
+/* line 134, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-double--right {
+  padding-right: 40px !important; }
+
+/* line 135, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-double--bottom {
+  padding-bottom: 40px !important; }
+
+/* line 136, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-double--left {
+  padding-left: 40px !important; }
+
+/* line 137, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-double--ends {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important; }
+
+/* line 138, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-double--sides {
+  padding-right: 40px !important;
+  padding-left: 40px !important; }
+
+/* line 140, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quintuple {
+  padding: 100px !important; }
+
+/* line 141, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quintuple--top {
+  padding-top: 100px !important; }
+
+/* line 142, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quintuple--right {
+  padding-right: 100px !important; }
+
+/* line 143, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quintuple--bottom {
+  padding-bottom: 100px !important; }
+
+/* line 144, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quintuple--left {
+  padding-left: 100px !important; }
+
+/* line 145, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quintuple--ends {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important; }
+
+/* line 146, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.soft-quintuple--sides {
+  padding-right: 100px !important;
+  padding-left: 100px !important; }
+
+/* line 148, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hard {
+  padding: 0 !important; }
+
+/* line 149, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hard--top {
+  padding-top: 0 !important; }
+
+/* line 150, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hard--right {
+  padding-right: 0 !important; }
+
+/* line 151, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hard--bottom {
+  padding-bottom: 0 !important; }
+
+/* line 152, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hard--left {
+  padding-left: 0 !important; }
+
+/* line 153, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hard--ends {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+/* line 154, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hard--sides {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+/**
+ * Pull items full width of `.island` parents.
+ */
+/* line 159, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.full-bleed {
+  margin-right: -20px !important;
+  margin-left: -20px !important; }
+  /* line 163, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+  .islet .full-bleed {
+    margin-right: -10px !important;
+    margin-left: -10px !important; }
+
+/**
+ * Add a help cursor to any element that gives the user extra information on
+ * `:hover`.
+ */
+/* line 174, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.informative {
+  cursor: help !important; }
+
+/* Cursor pointer */
+/* line 179, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.cursor-pointer {
+  cursor: pointer; }
+
+/**
+ * Mute an object by reducing its opacity.
+ */
+/* line 186, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.muted {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=50) !important; }
+
+/**
+ * Align items to the right where they imply progression/movement forward, e.g.:
+ *
+   <p class=proceed><a href=#>Read more...</a></p>
+ *
+ */
+/* line 198, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.proceed {
+  text-align: right !important; }
+
+/**
+ * Add a right-angled quote to links that imply movement, e.g.:
+ *
+   <a href=# class=go>Read more</a>
+ *
+ */
+/* line 209, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.go:after {
+  content: " " "»" !important; }
+
+/**
+ * Apply capital case to an element (usually a `strong`).
+ */
+/* line 217, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.caps {
+  text-transform: uppercase !important; }
+
+/**
+ * Vertical alignment
+ */
+/* line 224, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.v-table {
+  display: table;
+  height: 100%;
+  width: 100%; }
+
+/* line 230, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.v-table-cell {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle; }
+
+/**
+ * Mask
+ */
+/* line 239, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.mask {
+  overflow: hidden;
+  position: relative; }
+
+/**
+ * Truncate text
+ */
+/* line 248, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.ellipsis {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+/**
+ * Clearfix
+ */
+/* line 259, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 266, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.clear {
+  clear: both; }
+
+/**
+ * Display
+ */
+/* line 275, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hidden--strong {
+  display: none !important; }
+
+/* line 276, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.hidden {
+  display: none; }
+
+/* line 277, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.show, .displayblock {
+  display: block; }
+
+/* line 278, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.inline--block {
+  display: inline-block; }
+
+/* line 280, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.overflow--y--hidden {
+  overflow-y: hidden; }
+
+/**
+ * text colors
+ */
+/**
+ * Background colors
+ */
+/**
+ * images
+ */
+/* line 300, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.img--full {
+  display: block;
+  width: 100%; }
+
+/**
+ * Position
+ */
+/* line 309, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.relative {
+  position: relative; }
+
+/* line 310, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.absolute {
+  position: absolute; }
+
+/* line 311, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.static {
+  position: static; }
+
+/* line 313, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
+.no-padding {
+  padding: 0 !important; }
+
+/* line 1, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+html, body {
+  height: 100%; }
+
+/* line 4, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+body {
+  background: #f8f8f8;
+  font-family: "Neue-Haas-Unica-Pro", serif;
+  color: #787878; }
+
+/* line 10, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+a {
+  text-decoration: none;
+  font-weight: 300;
+  transition: 0.3s all ease-out;
+  color: #787878; }
+  /* line 15, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+  a:hover {
+    opacity: 0.9; }
+  /* line 18, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+  a:active {
+    color: #787878; }
+
+/* line 23, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.main-content {
+  padding-bottom: 88px; }
+  @media only screen and (max-width: 500px) {
+    /* line 23, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+    .main-content {
+      padding-bottom: 218px; } }
+
+/* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.main-wrapper {
+  min-height: 100%;
+  margin-bottom: -88px; }
+  @media only screen and (max-width: 500px) {
+    /* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+    .main-wrapper {
+      margin-bottom: -218px; } }
+
+/* line 38, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 15px; }
+  @media only screen and (min-width: 1280px) {
+    /* line 38, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+    .wrapper {
+      padding: 0 0; } }
+
+/* line 47, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.p-main {
+  width: 330px; }
+
+/* line 51, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.arrow--right {
+  background: url("../images/arrow--right.png");
+  display: block;
+  width: 18px;
+  height: 27px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 40px; }
+
+/*Images */
+/* line 66, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.img-phones {
+  background: url("../images/phones.png");
+  display: block;
+  height: 619px;
+  width: 589px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px; }
+
+/* line 77, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.avatar-img {
+  background: url("../images/avatar.png");
+  display: block;
+  height: 355px;
+  width: 255px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 30px;
+  z-index: 2; }
+
+/* line 89, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.map-img {
+  background: url("../images/map.png");
+  display: block;
+  height: 412px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 130px;
+  z-index: 1; }
+
+/* line 102, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.oval--available {
+  border-radius: 30px;
+  border: 2px solid #b8b8b8;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px 15px;
+  font-weight: 300;
+  color: #787878;
+  font-family: 'Helvetica Neue', sans-serif;
+  width: 120px;
+  line-height: 20px; }
+
+/* line 115, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.phone--shell {
+  position: absolute;
+  top: -50px;
+  background: url("../images/phone-shell.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 249px;
+  height: 508px;
+  left: 50%;
+  transform: translate(-50%, 0%); }
+
+/* line 130, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.list--horizontal li {
+  display: inline-block; }
+
+/* line 135, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.footer {
+  color: #787878; }
+
+/* line 139, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.mac--logo {
+  background: url("../images/mac-logo.png");
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left; }
+
+/* line 149, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s; }
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0; }
+  50% {
+    -webkit-transform: scale(0);
+    opacity: 0; }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1; }
+  to {
+    -webkit-transform: scale(1); } }
+/*Buttons */
+/* line 4, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_buttons.scss */
+.btn {
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 4px;
+  min-width: 0;
+  padding: 15px;
+  text-align: center;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out; }
+  /* line 19, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_buttons.scss */
+  .btn:hover {
+    text-decoration: none; }
+
+/* line 24, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_buttons.scss */
+.btn--oval {
+  border-radius: 20px;
+  border: 1px solid #b8b8b8; }
+
+/*Header */
+/* line 4, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_header.scss */
+.logo {
+  background: url("../images/logo.png");
+  display: block;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+/* line 1, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+.box--grid {
+  display: flex;
+  width: 430px; }
+  /* line 4, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+  .box--grid__border {
+    border-bottom: 1px solid #e5e5e5; }
+  /* line 7, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+  .box--grid .box--square {
+    flex: 3;
+    border-right: 1px solid #e5e5e5;
+    width: 140px;
+    height: 132px;
+    position: relative; }
+    /* line 13, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+    .box--grid .box--square i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px; }
+    /* line 20, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+    .box--grid .box--square:last-child {
+      border: none; }
+
+/* line 26, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+.box--quarter {
+  width: 60%; }
+
+/* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+.box--main {
+  height: 300px;
+  overflow: hidden;
+  color: #4c4c4c; }
+
+/* line 36, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+.box--white {
+  background: #fff;
+  border: 1px solid #e5e5e5; }
+
+/* line 41, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
+.box--pink {
+  background: #ff686d;
+  color: #fff; }
+
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+/** RESET AND LAYOUT
+===================================*/
+/* line 18, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  *zoom: 1; }
+
+/* line 25, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper img {
+  max-width: 100%;
+  display: block; }
+
+/** THEME
+===================================*/
+/* line 33, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-viewport {
+  /*fix other elements on the page moving (on Chrome)*/
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+  height: 100% !important; }
+
+/* line 43, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bxslider {
+  left: -108px; }
+
+/* line 47, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%; }
+
+/* LOADER */
+/* line 56, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url(images/bx_loader.gif) center center no-repeat #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000; }
+
+/* PAGER */
+/* line 69, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px; }
+
+/* line 78, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline; }
+
+/* line 85, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 98, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #000; }
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+/* line 105, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-prev {
+  left: 10px;
+  background: url(images/controls.png) no-repeat 0 -32px; }
+
+/* line 110, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-next {
+  right: 10px;
+  background: url(images/controls.png) no-repeat -43px -32px; }
+
+/* line 115, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-prev:hover {
+  background-position: 0 0; }
+
+/* line 119, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-next:hover {
+  background-position: -43px 0; }
+
+/* line 123, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999; }
+
+/* line 134, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls-direction a.disabled {
+  display: none; }
+
+/* AUTO CONTROLS (START / STOP) */
+/* line 140, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls-auto {
+  text-align: center; }
+
+/* line 144, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -11px no-repeat;
+  margin: 0 3px; }
+
+/* line 154, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+  background-position: -86px 0; }
+
+/* line 159, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url(images/controls.png) -86px -44px no-repeat;
+  margin: 0 3px; }
+
+/* line 169, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+  background-position: -86px -33px; }
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+/* line 176, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%; }
+
+/* line 181, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px; }
+
+/* IMAGE CAPTIONS */
+/* line 188, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666 \9;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%; }
+
+/* line 197, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/jquery.bxslider.css */
+.bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px; }
