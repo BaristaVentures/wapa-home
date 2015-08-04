@@ -211,7 +211,7 @@
 				position: 'relative'
 			});
 			slider.viewport.parent().css({
-				maxWidth: getViewportMaxWidth()
+				//maxWidth: getViewportMaxWidth()
 			});
 			// make modification to the wrapper (.bx-wrapper)
 			if(!slider.settings.pager) {

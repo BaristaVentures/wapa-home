@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="34" height="32" viewBox="0 0 34 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #67c06c;
+        fill-opacity: 0;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #ff686d;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect x="1" y="6" width="32" height="14" rx="4.5" ry="4.5" class="cls-1"/>
+    <rect y="14" width="33" height="10" class="cls-2"/>
+    <path d="M34.000,25.000 C34.000,28.314 31.314,31.000 28.000,31.000 L8.000,31.000 C4.686,31.000 2.000,28.314 2.000,25.000 L2.000,22.000 C2.000,20.456 2.599,19.063 3.557,18.000 L3.000,18.000 C3.000,18.000 5.000,14.446 5.000,11.000 C5.000,11.000 4.914,9.046 7.000,9.000 L16.000,9.000 L17.000,9.000 L29.000,9.000 C31.086,9.046 31.000,11.000 31.000,11.000 C31.000,14.446 33.000,18.000 33.000,18.000 L32.443,18.000 C33.401,19.063 34.000,20.456 34.000,22.000 L34.000,25.000 Z" class="cls-3"/>
+    <circle cx="17" cy="5" r="4" class="cls-4"/>
+    <rect x="7" y="8" width="22" height="1" class="cls-2"/>
+  </g>
+</svg>
