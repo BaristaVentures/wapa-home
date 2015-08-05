@@ -2392,7 +2392,7 @@ a {
 
 /* line 26, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
 .box--quarter {
-  width: 60%; }
+  width: 67%; }
 
 /* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_boxes.scss */
 .box--main {
@@ -2611,3 +2611,8 @@ a {
   left:1%;
   top:50px;
 }
+
+
+/*@media only screen and (min-width: 820px){
+
+}*/
