@@ -2610,7 +2610,7 @@ a {
 
 @media only screen and (max-width: 1370px){
   .slide__width{
-    width: 1372px;
+    width: 1373px;
     margin: 0 auto;
     left: calc(50% - 674px) !important;
   }
@@ -2718,7 +2718,7 @@ a {
 }
 
 .bx-viewport{
-  top: -1px;
+  top: -2px;
   margin: 0 auto;
 }
 
