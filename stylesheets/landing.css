@@ -2731,3 +2731,10 @@ a {
     margin-top: 121px;
   }
 }
+
+@media only screen and (max-width: 395px){
+  .list--horizontal{
+    width: 273px;
+    margin-left: 0;
+  }
+}
