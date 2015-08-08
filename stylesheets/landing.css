@@ -2191,10 +2191,6 @@ a {
 /* line 23, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
 .main-content {
   padding-bottom: 88px; }
-  @media only screen and (max-width: 500px) {
-    /* line 23, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
-    .main-content {
-      padding-bottom: 218px; } }
 
 /* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
 .main-wrapper {
@@ -2726,6 +2722,8 @@ a {
   margin: 0 auto;
 }
 
-/*@media only screen and (max-width: 503px){
-
-}*/
+@media only screen and (max-width: 500px){
+  footer {
+    margin-top: 121px;
+  }
+}
