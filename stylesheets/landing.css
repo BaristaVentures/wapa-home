@@ -2734,7 +2734,9 @@ a {
 
 @media only screen and (max-width: 395px){
   .list--horizontal{
-    width: 273px;
-    margin-left: 0;
+    width: 273px!important;
+    margin-left: 0!important;
+    padding: 0 !important;
+    margin: 0  !important;
   }
 }
