@@ -2608,15 +2608,18 @@ a {
   padding-bottom: 180px !important;
 }
 .slide-app .grid__item{
-  left:1%;
+  left:0;
   top:50px;
 }
 
-/*@media only screen and (max-width: 1375px){
-  .bx-viewport{
-    overflow-x: visible !important;
+@media only screen and (max-width: 1370px){
+  .slide__width{
+    width: 1372px;
+    margin: 0 auto;
+    left: calc(50% - 674px) !important;
   }
-}*/
+}
+
 @media only screen and (max-width: 960px){
  .box--pink .grid__item{
    left: 2%;
@@ -2716,6 +2719,11 @@ a {
   footer .float--right{
     width: 100%;
   }
+}
+
+.bx-viewport{
+  top: -1px;
+  margin: 0 auto;
 }
 
 /*@media only screen and (max-width: 503px){
