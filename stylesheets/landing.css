@@ -1842,6 +1842,10 @@ table {
 .soft--left {
   padding-left: 20px !important; }
 
+.soft--left:first-child {
+  padding-left: 0 !important;
+}
+
 /* line 113, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_helpers.scss */
 .soft--ends {
   padding-top: 47px !important;
