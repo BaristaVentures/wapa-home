@@ -2294,8 +2294,7 @@ a {
   background-size: contain;
   width: 249px;
   height: 508px;
-  left: 50%;
-  transform: translate(-50%, 0%); }
+  left: calc(50% - 124px);  }
 
 /* line 130, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
 .list--horizontal li {
@@ -2616,7 +2615,7 @@ a {
 
 .grid__beauty-items{
   left: 0;
-  padding-left: 0;
+  padding-left: 2%;
 }
 
 .grid__beauty-items img{
@@ -2625,11 +2624,29 @@ a {
   display: block;
 }
 
+.grid__icons-steps{
+  padding-left: 0;
+}
+
+.grid__book-salon{
+  padding: 0 20px;
+}
+
+.grid__maps-app img{
+  width: 91%;
+}
+
 @media only screen and (max-width: 1370px){
   .slide__width{
     width: 1373px;
     margin: 0 auto;
     left: calc(50% - 674px) !important;
+  }
+}
+
+@media (min-width: 722px) and (max-width: 958px){
+  .grid__beauty-items img{
+    margin-top: 40px;
   }
 }
 
@@ -2752,5 +2769,11 @@ a {
     padding: 0 !important;
     margin: 0 auto !important;
     margin-bottom: 20px!important;
+  }
+}
+
+@media only screen and (max-width: 340px){
+  .arrow--right{
+    right: 0;
   }
 }
