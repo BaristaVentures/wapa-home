@@ -2199,7 +2199,9 @@ a {
 /* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
 .main-wrapper {
   min-height: 100%;
-  margin-bottom: -88px; }
+  margin-bottom: -88px;
+  width: 100vw;
+  overflow-x: hidden;}
   @media only screen and (max-width: 500px) {
     /* line 30, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
     .main-wrapper {
@@ -2610,6 +2612,17 @@ a {
 .slide-app .grid__item{
   left:0;
   top:50px;
+}
+
+.grid__beauty-items{
+  left: 0;
+  padding-left: 0;
+}
+
+.grid__beauty-items img{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 @media only screen and (max-width: 1370px){
