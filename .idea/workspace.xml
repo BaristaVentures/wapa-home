@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5421524-3fa8-47c2-bc00-81044a494fea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/landing.css" afterPath="$PROJECT_DIR$/stylesheets/landing.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wapa-home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +56,8 @@
       <file leaf-file-name="landing.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/landing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37322274">
-              <caret line="2634" column="19" selection-start-line="2634" selection-start-column="19" selection-end-line="2634" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.35308057">
+              <caret line="2627" column="20" selection-start-line="2627" selection-start-column="20" selection-end-line="2627" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -708,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/landing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37322274">
-          <caret line="2634" column="19" selection-start-line="2634" selection-start-column="19" selection-end-line="2634" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.35308057">
+          <caret line="2627" column="20" selection-start-line="2627" selection-start-column="20" selection-end-line="2627" selection-end-column="20" />
           <folding />
         </state>
       </provider>
