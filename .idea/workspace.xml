@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c5421524-3fa8-47c2-bc00-81044a494fea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/landing.css" afterPath="$PROJECT_DIR$/stylesheets/landing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wapa-home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +27,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="79" />
               <folding />
             </state>
@@ -56,8 +57,8 @@
       <file leaf-file-name="landing.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/landing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35308057">
-              <caret line="2627" column="20" selection-start-line="2627" selection-start-column="20" selection-end-line="2627" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.74684995">
+              <caret line="2771" column="3" selection-start-line="2771" selection-start-column="3" selection-end-line="2771" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -124,7 +125,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,6 +188,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -698,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="79" />
           <folding />
         </state>
@@ -706,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/landing.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35308057">
-          <caret line="2627" column="20" selection-start-line="2627" selection-start-column="20" selection-end-line="2627" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.74684995">
+          <caret line="2771" column="3" selection-start-line="2771" selection-start-column="3" selection-end-line="2771" selection-end-column="3" />
           <folding />
         </state>
       </provider>
