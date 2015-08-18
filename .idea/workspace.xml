@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5421524-3fa8-47c2-bc00-81044a494fea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/landing.css" afterPath="$PROJECT_DIR$/stylesheets/landing.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/map-and-app.png" afterPath="$PROJECT_DIR$/images/map-and-app.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/phones.png" afterPath="$PROJECT_DIR$/images/phones.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wapa-home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="79" />
               <folding />
             </state>
@@ -53,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landing.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/landing.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76632303">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2772" column="9" selection-start-line="2772" selection-start-column="9" selection-end-line="2772" selection-end-column="9" />
               <folding />
             </state>
@@ -124,6 +126,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,8 +190,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +252,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="809" y="6" width="1104" height="1033" extended-state="0" />
+    <frame x="809" y="6" width="1104" height="1033" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2401501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -696,18 +698,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/stylesheets/landing.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="79" />
+          <caret line="2772" column="9" selection-start-line="2772" selection-start-column="9" selection-end-line="2772" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/landing.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76632303">
-          <caret line="2772" column="9" selection-start-line="2772" selection-start-column="9" selection-end-line="2772" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="79" />
           <folding />
         </state>
       </provider>
