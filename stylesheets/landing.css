@@ -2274,14 +2274,16 @@ a {
 /* line 102, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
 .oval--available {
   border-radius: 30px;
+  background: #fff;
   border: 2px solid #b8b8b8;
-  display: inline-block;
+  display: block;
   font-size: 15px;
   padding: 10px 28px;
   font-weight: 300;
   color: #787878;
   font-family: 'Helvetica Neue', sans-serif;
-  width: 120px;
+  width: 140px;
+  margin: 0 auto;
   line-height: 20px; }
 
 /* line 115, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
@@ -2635,6 +2637,25 @@ a {
 .grid__maps-app img{
   width: 91%;
 }
+
+.box--booknow{
+  width: 330px;
+}
+
+.box--input{
+  display: none;
+}
+
+.box--input input{
+  padding: 5px 10px;
+  width: calc(100% - 88px);
+  max-width: 256px;
+}
+
+.box--input button{
+  padding: 7px;
+}
+
 
 @media only screen and (max-width: 1370px){
   .slide__width{
