@@ -407,7 +407,7 @@ table {
 
 /* line 61, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
 .social-icon {
-  background: url("../images/social-network.png");
+  background: url("../images/social-network-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: inline-block;
@@ -420,10 +420,12 @@ table {
     background-position: 0px 0px; }
   /* line 71, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
   .social-icon.twitter {
-    background-position: -100px 0px; }
+    background-position: -23px 0px; }
   /* line 74, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_fonts.scss */
+  .social-icon.instagram{
+    background-position: -46px 0px; }
   .social-icon.google {
-    background-position: -190px 0px; }
+    background-position: -68px 0px; }
 
 /*------------------------------------*\
     $CSSWIZARDRY-GRIDS
