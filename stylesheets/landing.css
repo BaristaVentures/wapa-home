@@ -2639,7 +2639,8 @@ a {
 }
 
 .box--booknow{
-  width: 330px;
+  max-width: 330px;
+  width: 100%;
 }
 
 .box--input{
