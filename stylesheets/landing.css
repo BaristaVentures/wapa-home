@@ -2219,7 +2219,7 @@ a {
 
 /* line 47, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
 .p-main {
-  width: 330px; }
+  max-width: 330px; }
 
 /* line 51, /Users/luiskhernandez/CodeKilla/null/wapa-home/source/stylesheets/_global.scss */
 .arrow--right {
@@ -2725,6 +2725,7 @@ a {
   }
   .box--main{
     height: 500px;
+    top: -35px;
   }
   .three-fifths{
     width: 100%;
@@ -2732,6 +2733,7 @@ a {
   .two-fifths{
     width: 330px;
     margin: 30px auto;
+    margin-top: 0;
     display: block;
   }
   .img-phones{
@@ -2756,11 +2758,11 @@ a {
   }
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 635px){
   footer .list--horizontal{
     margin: 0 auto;
     display: block;
-    width: 331px;
+    width: 410px;
     margin-bottom: 20px;
   }
   footer .float--left{
@@ -2780,6 +2782,18 @@ a {
 @media only screen and (max-width: 500px){
   footer {
     margin-top: 121px;
+  }
+  footer .list--horizontal{
+    padding-left: 0;
+  }
+  footer .list--horizontal li{
+    display: block;
+    padding-left: 0 !important;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  footer .list--horizontal li:last-child{
+    padding-bottom: 0;
   }
 }
 
