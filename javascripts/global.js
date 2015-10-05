@@ -24,7 +24,7 @@ $(window).load(function() {
   $(".js-do-booknow").on("click", function(){
     var emailVal = $(".js-input-email").val();
     if(validateEmail(emailVal)){
-      Parse.initialize("1xzWcLBL9xXTP4s3XpdNYChaLP5MjZ7QPDNUiuDe", "co9aMd2V4V7DXeewbm9o27DRxES0NQup4iDWiWR1");
+      Parse.initialize("dNZdWBwXizauR0c26fwKIAVS5fkEnxaInYGsbjXA", "sCDHT0FIYkGNInNYjYm8ptV8wMPCXbKbBfJ90SN8");
       Parse.Cloud.run('sendReservation', { email: emailVal }, {
         success: function(result) {
           alert(result);
