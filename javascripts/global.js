@@ -28,6 +28,7 @@ $(window).load(function() {
       Parse.Cloud.run('sendReservation', { email: emailVal }, {
         success: function(result) {
           alert(result);
+          $(".js-input-email").val("");
         },
         error: function(error) {
           alert(error);
